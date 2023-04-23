@@ -30,6 +30,12 @@ const positionData = [
     },
 ]
 
+const balanceInfo = {
+    exe: '100',
+    nextexe: '5',
+    usdc: '100'
+}
+
 export default function Trade() {
   return (
     <>
@@ -68,14 +74,14 @@ export default function Trade() {
                     <button className='endButton'>end</button>
                 </div>))}
             </div>
-        <div className='tradeBlock'>
-        <div className='selectorBlock'>
-                <button className='selector selectorLeft'>
-                    Buy EXE from USDC
-                </button>
-                <button className='selector selectorRight'>
-                    Sell EXE for USDC
-                </button>
+        <div className='tradeBlock3'>
+        <div className='selectorBlock3'>
+                <h2 className='heading2'>
+                    Your Balnces
+                </h2>
+                <h3 className='heading3'>EXE <span className='spacing'>{balanceInfo.exe}</span></h3>
+                <h3 className='heading3'>EXE Gain <span>{balanceInfo.nextexe}</span></h3>
+                <h3 className='heading3'>EXE <span>{balanceInfo.usdc}</span></h3>
             </div>
         </div>
     </div></>

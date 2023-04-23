@@ -116,12 +116,32 @@ a {
   margin-left: 30px;
   padding: 50px 0;
 }
+.tradeBlock3 {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  height: fit-content;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 30px;
+  padding: 50px 0;
+}
 .selectorBlock {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
-  width: 90%;}
+  width: 90%;
+}
+.selectorBlock3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  width: 90%;
+}
 
 .selectorBlock::after {
   background-color: black;
@@ -190,4 +210,10 @@ a {
 }
 .heading2 {
   margin-bottom: 30px;
+}
+.heading3 {
+  margin: 30px 0;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
