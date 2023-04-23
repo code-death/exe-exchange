@@ -91,3 +91,9 @@ body {
 .heroImage {
   height: 800px;
 }
+
+.heroButton {
+  margin-top: 50px;
+  background-color: #5fbf80;
+  padding: 12px 80px;
+}

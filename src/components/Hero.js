@@ -9,6 +9,7 @@ export default function Hero() {
             Exchange Energy Effeciently
         </h1>
         <p>A better and unique way to exchange enery for a better future</p>
+        <button className='metamask-connect heroButton'>Trade Now</button>
         </div>
         <img className='heroImage' src={heroImage} alt="" />
     </div>
