@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from  '../Logo.svg'
+import logo from  './Logo.svg'
 import icon from '../metamask-icon.png'
 import { Link } from 'react-router-dom'
 
