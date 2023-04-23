@@ -57,17 +57,25 @@ body {
   align-items: center;
   border-radius: 50px;
   background: transparent;
-  border: 2px solid #5fbf80;
   transition: 500ms;
   cursor: pointer;
+  border: none;
+  font-weight: 600;
+  border: 2px solid #5fbf80;
 }
 
+.borderGreen:hover {
+  background-color: none !important;
+}
 
 .metamask-connect:active {
-  border: 2px solid 5fbf80;
+  border: 2px solid #45a266;
 }
+
 .metamask-connect:hover {
+  border: 2px solid #5fbf80;
   box-shadow: 0px 0px 30px -5px #5fbf81;
+  background-color: #5fbf80;
 }
 
 .hero {
@@ -115,7 +123,13 @@ a {
   border-radius: 30px;
   margin-left: 30px;
   padding: 50px 0;
+  transition: 500ms;
 }
+
+.tradeBlock2 {
+  height: max-content;
+}
+
 .tradeBlock3 {
   display: flex;
   flex-direction: column;
@@ -165,19 +179,11 @@ a {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-.selectorLeft:active {
-  background-color: white;
-  color: black;
-}
-.selectorRight:active {
-  background-color: white;
-  color: black;
-}
 
 .input {
   background-color: #07060A;
   border: 1px solid white;
-  width: 60%;
+  width: 72%;
   padding: 10px 30px;
   color: white;
   margin: 20px 0;
@@ -205,6 +211,9 @@ a {
   cursor: Pointer;
   padding: 3px 20px;
 }
+.endButton:hover {
+  background-color: #45a266;
+}
 .infoItem {
   margin: 0 10px;
 }
@@ -216,4 +225,15 @@ a {
   width: 60%;
   display: flex;
   justify-content: space-between;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
