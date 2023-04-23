@@ -38,7 +38,6 @@ body {
   padding: 0px 30px;
 }
 .nav-link:hover {
-  
   cursor: pointer;
 }
 .shadow:hover {
@@ -97,3 +96,76 @@ body {
   background-color: #5fbf80;
   padding: 12px 80px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.trade {
+  margin: 50px 30px 50px 0;
+  display: flex;
+}
+
+.tradeBlock {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 30px;
+  padding: 50px 0;
+}
+.selectorBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 90%;}
+
+.selectorBlock::after {
+  background-color: black;
+}
+
+.selector {
+  background-color: #07060A;
+  border: 2px solid white;
+  padding: 10px 40px;
+  font-size: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.selectorLeft {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: 1px white solid;
+}
+.selectorRight {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.selectorLeft:active {
+  background-color: white;
+  color: black;
+}
+.selectorRight:active {
+  background-color: white;
+  color: black;
+}
+
+.input {
+  background-color: #07060A;
+  border: 1px solid white;
+  width: 60%;
+  padding: 10px 30px;
+  color: white;
+  margin: 20px 0;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 1px #5fbf80;
+}
+
+

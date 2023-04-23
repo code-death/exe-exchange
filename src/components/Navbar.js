@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from  '../Logo.svg'
 import icon from '../metamask-icon.png'
+import {Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
         <div className='left-section'>
             <span className='logo-section'><img className='company-logo' src={logo} alt="company Logo" /><p className='company-name'>EXE Trade</p></span>
             <ul className='nav-links'>
-                <li className='nav-link'><span className='shadow'>Trade</span></li>
+                <Link to='/trade'><li className='nav-link'><span className='shadow'>Trade</span></li></Link>
                 <li className='nav-link'><span className='shadow'>About</span></li>
                 <li className='nav-link'><span className='shadow'>Contact</span></li>
             </ul>

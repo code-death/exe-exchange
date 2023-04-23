@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
 import heroImage from '../assets/Layer 2.png'
 
 export default function Hero() {
@@ -8,8 +8,8 @@ export default function Hero() {
         <h1 className='heading'>
             Exchange Energy Effeciently
         </h1>
-        <p>A better and unique way to exchange enery for a better future</p>
-        <button className='metamask-connect heroButton'>Trade Now</button>
+        <p>A better and unique way to exchange energy for a better future</p>
+        <Link to='/trade'><button className='metamask-connect heroButton'>Trade Now</button></Link>
         </div>
         <img className='heroImage' src={heroImage} alt="" />
     </div>
